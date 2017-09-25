@@ -22,10 +22,10 @@
    color:#4bc3eb;
    padding: 0px;
    margin: -3px;
-
-   
-
-
+}
+.hoverLogo :hover{
+   transition: all 0.8s ease;
+   transform: scale(1.06);
 }
 nav a{
     color: black;
@@ -40,7 +40,7 @@ nav a{
 
 }
 .divLogo{
-	margin-left: 601px;
+	margin-left: 616px;
 	position: absolute;
 	margin-top: -9px;
     display: block;
@@ -48,15 +48,19 @@ nav a{
 nav{
 	font-family: 'heroR';
     padding-top: 13px;
-    border-bottom: 5px solid #4bc3eb;
+    
     display: inline-block;
     padding-right: 0px;
     padding-left: 0px;
-
-
+}
+#divLinea{
+    width: 102%;
+    margin-left: -19px;
+    border-bottom: 5px solid #4bc3eb;
+    margin-top: -10px;
 }
 ul{
-	padding-left: 22px;
+	padding-left: 15px;
     padding-right: 0px;
     display: inline-block;
 }
@@ -139,5 +143,21 @@ h1 {
 #barra{
     width: 100%;
     margin-top: 0px;
+}
+#tituloAppMov{
+       color: white;
+    text-shadow: 4px 3px 5px #616970;
+    position: absolute;
+    margin-top: -311px;
+   
+    margin-left: 269px;
+}
+.h3-1App {
+    width: 117%;
+    font-family: 'heroL';
+    text-align: center;
+    font-size: 15.9pt;
+    margin-left: -92px;
+    
 }
 
