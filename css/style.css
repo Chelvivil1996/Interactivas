@@ -16,13 +16,16 @@
 }
 
 .hovernav :hover{
-
-     border: 2.5px solid #4bc3eb;
+   
+     border: 3px solid #4bc3eb;
      border-radius: 4px;
-    transition: all 0.8s fadeIn;
-   padding-right: 5px;
-   padding-left: 5px;
+     color:#4bc3eb;
+     
+     
+
     
+   /*padding-right: 5px;
+   padding-left: 5px;*/
 
 }
 
