@@ -174,13 +174,33 @@ h1 {
        margin-left: 48%;
     margin-top: 60px;
 }
-#Respon{
+#Respon-Az{
     font-family: 'heroR';
     text-align: center;
     font-size: 15.9pt;
     color: #4bc3eb;
 }
+#Respon-Na{
+    font-family: 'heroR';
+    text-align: center;
+    font-size: 15.9pt;
+    color: #f9a74c;
+}
+#Respon-Ver{
+    font-family: 'heroR';
+    text-align: center;
+    font-size: 15.9pt;
+    color: #73c267;
+}
 .DisArt{
         margin-top: 51px;
 }
+
+#Respon-Gris{
+    font-family: 'heroR';
+    text-align: center;
+    font-size: 15.9pt;
+    color: #97b0c2;
+}
+
 
