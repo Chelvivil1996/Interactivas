@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'heroR';
+    src: url('../fonts/heroR/hero-webfont.woff2') format('woff2'),
+         url('../fonts/heroR/hero-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'heroL';
+    src: url('../fonts/heroL/hero_light-webfont.woff2') format('woff2'),
+         url('../fonts/heroL/hero_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.hovernav :hover{
+
+     border: 2.5px solid #4bc3eb;
+     border-radius: 4px;
+    transition: all 0.8s fadeIn;
+   padding-right: 5px;
+   padding-left: 5px;
+    
+
+}
+
+.menu-top{
+	font-size: 23pt;
+
+}
+.divLogo{
+	margin-left: 601px;
+	position: absolute;
+	margin-top: -9px;
+}
+nav{
+	font-family: 'heroR';
+    padding-top: 13px;
+    border-bottom: 5px solid #4bc3eb;
+
+}
+ul{
+	padding-left: 6px;
+}
+
+ul > li{
+	display: inline;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.li1{
+
+	margin-right: 206px;
+
+}
+h1 {
+    text-align: center;
+    font-size: 40.5pt;
+    font-family: 'heroR';
+    padding-top: 50px;
+}
+.perfiles{
+        width: 20%;
+    border: 2.5px solid black;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 73px;
+
+    padding-left: 0px;
+    margin-left: 518px;
+    font-family: 'heroR';
+    font-size:23px;
+}
+.sectionPag1 {
+    width: 70%;
+    padding-top: 10px;
+    margin-right: -5px;
+    margin-left: 171px;
+}
+.h3-1 {
+    width: 117%;
+    font-family: 'heroL';
+    text-align: center;
+    font-size: 15.9pt;
+    margin-left: -44px;
+    
+}
+.h3-2 {
+    width: 122%;
+    font-family: 'heroL';
+    text-align: center;
+    font-size: 15.9pt;
+    margin-left: -59px;
+    
+}
+.h3-3 {
+    width: 122%;
+    font-family: 'heroL';
+    text-align: center;
+    font-size: 15.9pt;
+    margin-left: -59px;
+    
+}
+#divBanner{
+    width: 102%;
+    margin-top: -110px;
+    margin-left: -19px;
+   
+}
+#barra{
+    width: 100%;
+    margin-top: 0px;
+}
+
