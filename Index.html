@@ -4,16 +4,16 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<title>Informática y Tecnología Multimedia</title>
-	</head>
+</head>
 <body>
-<header class="menu-top">
+	<header class="menu-top">
 		<div class="divLogo hoverLogo"><a href="#"><img src="img/logo.png"></a></div>
 		<div >
 			<nav >
 				<ul class="hovernav">
 					<li ><a id="UI" href="#">UI/UX</a> </li>
 					<li><a id="UI" href="#">Animador</a></li>
-					<li class="li1"><a id="UI" href="#">Apps Móviles</a></li>
+					<li class="li1"><a id="diseñadorApp" href="#">Apps Móviles</a></li>
 					<li ><a id="UI" href="#">Web</a></li>
 					<li><a id="UI" href="#">Video Juegos</a></li>
 					<li><a id="UI" href="#">Contacto</a></li>
@@ -27,30 +27,59 @@
 
 		<article class="sectionPag1">
 			<p class="h3-1">Esta carrera nace para cubrir el desarrollo de las aplicaciones multimedia, que en los últimos años ha despuntado.</p>
-<p class="h3-2">Formamos profesionales con un amplio sentido del arte, capaces de comunicar sus ideas a los usuarios finales
- y con amplios conocimientos en  redes, bases de datos, diseño gráfico, animación y programación, entre otros.<br>
- El estudiantado que ingrese no necesita  tener conocimientos previos en ninguna de las áreas en las que se
- enfoca el programa.</p>
-<p class="h3-3">A nivel de Licenciatura, el profesional desarrolla juegos y crea animaciones digitales.</p>
-		</article>
-		<div class="perfiles"><p>Perfiles Profesionales</p></div>
-	<img src="img/bannerITM.png" id="divBanner">
+			<p class="h3-2">Formamos profesionales con un amplio sentido del arte, capaces de comunicar sus ideas a los usuarios finales
+				y con amplios conocimientos en  redes, bases de datos, diseño gráfico, animación y programación, entre otros.<br>
+				El estudiantado que ingrese no necesita  tener conocimientos previos en ninguna de las áreas en las que se
+				enfoca el programa.</p>
+				<p class="h3-3">A nivel de Licenciatura, el profesional desarrolla juegos y crea animaciones digitales.</p>
+			</article>
+			<div class="perfiles"><p>Perfiles Profesionales</p></div>
+			<img src="img/bannerITM.png" id="divBanner">
 
-	</section>
+		</section>
 
-	<section id="animador">
-		<div id="divDisApp"><img src="img/mobile-app-designer.png" ></div>
-		<h1 id="tituloAppMov">Diseñador de aplicaciones<br> móviles (IOS, Android, Híbridas)</h1>
-		<article>
-			<p class="h3-1App">Es el profesional responsable del diseño de las aplicaciones que se usaran desde un dispositivo móvil.</p>
-Usualmente se les llama diseñadores de iOS, diseñadores de Android u otros. Trabajan muy de cerca
-con el diseñador de interfaz de usuario para aplicar esas ideas en los diseños de las interfaces para
-dispositivos móviles. Aunque diseñan para aplicaciones móviles nativas, también pueden crear
-diseños para aplicaciones híbridas.
-		</article>
+		<section class="diseñador-App">
+			<div id="divDisApp"><img src="img/mobile-app-designer.png" ></div>
+			<h1 id="tituloAppMov">Diseñador de aplicaciones<br> móviles (IOS, Android, Híbridas)</h1>
+			<article class="DisArt">
+				<p class="h3-1App">Es el profesional responsable del diseño de las aplicaciones que se usaran desde un dispositivo móvil.</p>
+				<p class="h3-2App">Usualmente se les llama diseñadores de iOS, diseñadores de Android u otros. Trabajan muy de cerca<br>
+					con el diseñador de interfaz de usuario para aplicar esas ideas en los diseños de las interfaces para<br>
+					dispositivos móviles. Aunque diseñan para aplicaciones móviles nativas, también pueden crear<br>
+					diseños para aplicaciones híbridas.</p>
+				</article>
+				<div id="icono"><img src="img/r-azul.png"></div>
+				<p id="Respon">Responsabilidades</p>
+				<article>
+				<p class="h3-1App">-Desarrollar diseños intuitivos, usables, interactivos y atractivos para el usuario<br>
+
+						- Participar en los procesos de desarrollo de la aplicacion desde su definicion pasando por el<br>
+						diseño, programacion, pruebas, lanzamiento y mantenimiento.<br>
+
+						-Mantenerse actualizado sobre principales tendencias sobre experiencia de usuario e ideas<br>
+						creativas<br>
+
+						-investigacion sobre los principales patrones de diseño en ias aplicaciones moviles</p>
+					</article>
+					<div id="icono"><img src="img/c-azul.png"></div>
+					<p id="Respon">Habilidades</p>
 
 
-	</section>
-	
-</body>
-</html>
+
+				</section>
+
+
+				<script src="./js/wow.min.js"></script>
+				<script src="./js/jquery-3.2.1.min.js"></script>
+				<script src="./js/animatescroll.min.js"></script>
+
+				<script>
+					$('document').ready(function(){
+						console.log("ready");
+						new WOW().init();
+						$('#diseñadorApp').click(function(){ $('.diseñador-App').animatescroll(); });
+
+					});
+				</script>
+			</body>
+			</html>
