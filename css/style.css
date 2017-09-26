@@ -34,6 +34,8 @@ nav a{
     
 }
 
+
+
 .menu-top{
 	font-size: 23pt;
 
@@ -204,3 +206,20 @@ h1 {
 }
 
 
+
+.li{
+display: inline-block;
+text-decoration: none;
+
+}
+
+
+#subseccion1 { 
+padding: 5px; width: 50%;
+background: #a8dbed opacity: 0.2;
+
+position: absolute;  
+display: none; }
+#subseccion1 : hover{
+   transition: all 0.5s ease; 
+}
